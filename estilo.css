@@ -1,0 +1,25 @@
+*{
+   box-sizing: border-box;
+}
+body {
+display: flex;
+flex-direction: column;
+min-height: 100vh;
+justify-content: space-between;
+margin: 0;
+}
+
+header,footer{
+height: 60px;
+}
+main{
+height: calc(100vh - 150px);
+background-color: orange;
+}
+
+header{
+    background-color: blueviolet;
+}
+footer{
+    background-color: brown;
+}
